@@ -1,48 +1,58 @@
-header {
-    font-size: 24px;
-    text-align: center;
-    padding-top: 18px;
-    padding-bottom: 18px;
+body {font-size: 18px;}
+
+header,
+footer {
+  text-align: center;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  font-size: 24px;
 }
 
 .wrap-main {
-    max-width: 1024px;
-    margin: 0 auto;
+  max-width: 1024px;
+  margin: 0px auto;
 }
 
-.foto {
-    border-radius: 2%;
-    width: 30%;
-    height: auto;
-    width: 200px;
-    height: 200px;
-    margin-right: 40px;
-    /* flex-basis: 40% */
-}
+.contacts {display: flex;}
 
-.contacts {
-    display: flex;
-    /* justify-content: space-between; */
-    max-width: 70%;
-    /* flex-basis: 60% */
+.personal-foto img{
+  margin-right: 40px;
+  width: 200px;
+  height: 200px;
+  border-radius: 2%;
 }
 
 .name {
-    font-size: 30px;
-    text-align: center;
-    font-weight: bold;
-    letter-spacing: 4px;
-    margin-bottom: 40px;
+  margin-bottom: 30px;
+  margin-top: 6px;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
-.linkedin img {
-    vertical-align: middle;
-    /* margin-top: 5px; */
-}
-
+.linkedin img {vertical-align: middle;}
 
 .linkedin,
 .linkedin:hover {
   color: black;
   text-decoration: none;
 }
+
+.position {color: rgb(134 108 74);}
+
+section h2 {background-color: #d7c99e38;}
+
+.projects-table {
+  margin-bottom: 10px;
+  border: 1px solid black;
+}
+
+.description-column {width: 45%}
+
+.projects-table th,
+.projects-table td {
+  border-bottom: 1px solid #ddd;
+}
+
+.projects-table  tr:nth-child(odd) {background-color: #f2f2f2;}
