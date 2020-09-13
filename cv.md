@@ -3,6 +3,7 @@
 ### Liliia Smelova
 
 **Contact Info**:  Gudkovaliliya@mail.ru or [LinkedIn](https://www.linkedin.com/in/liliya-g-7744bb10a/).
+
 My goal is to work as a web developer. To achieve this goal I spend as much time as possible on self-learning web development from different sources and creating my own projects. I'm a well-organized person, problem solver and employee with high attention to detail. 
 
 In my learning projects I use technologies and frameworks:
